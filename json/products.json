@@ -1,0 +1,244 @@
+{
+    "products":[
+      {
+          "id":"1",
+          "type": "featured",
+          "brand": "H&M",
+          "name": "Floral Buttoned Shirt",
+          "file": "img/products/1.jpg",
+          "variants": {
+            "v1": "main/img/product-variants/1a.jpg",
+            "v2": "main/img/product-variants/1b.jpg",
+            "v3": "main/img/product-variants/1c.jpg"
+          },
+          "stars": 4,
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut hendrerit magna. Fusce auctor accumsan purus non maximus. In auctor urna eget risus viverra laoreet. Nullam metus lorem, mattis non aliquet in, lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+          "price": "750.50"
+      },
+      {
+        "id":"2",
+        "type": "featured",
+        "brand": "H&M",
+        "name": "Leaf Buttoned Shirt",
+        "file": "img/products/2.jpg",
+        "variants": {
+          "v1": "main/img/product-variants/2a.jpg",
+          "v2": "main/img/product-variants/2b.jpg",
+          "v3": "main/img/product-variants/2c.jpg"
+        },
+        "stars": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut hendrerit magna. Fusce auctor accumsan purus non maximus. In auctor urna eget risus viverra laoreet. Nullam metus lorem, mattis non aliquet in, lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+        "price": "700.00"
+    },
+    {
+        "id":"3",
+        "type": "featured",
+        "brand": "H&M",
+        "name": "Roses Buttoned Shirt",
+        "file": "img/products/3.jpg",
+        "variants": {
+          "v1": "main/img/product-variants/3a.jpg",
+          "v2": "main/img/product-variants/3b.jpg",
+          "v3": "main/img/product-variants/3c.jpg"
+        },
+        "stars": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut hendrerit magna. Fusce auctor accumsan purus non maximus. In auctor urna eget risus viverra laoreet. Nullam metus lorem, mattis non aliquet in, lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+        "price": "900.00"
+    },
+    {
+        "id":"4",
+        "type": "featured",
+        "brand": "Uniqlo",
+        "name": "Sakura Polo Shirt",
+        "file": "img/products/4.jpg",
+        "variants": {
+          "v1": "main/img/product-variants/4a.jpg",
+          "v2": "main/img/product-variants/4b.jpg",
+          "v3": "main/img/product-variants/4c.jpg"
+        },
+        "stars": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut hendrerit magna. Fusce auctor accumsan purus non maximus. In auctor urna eget risus viverra laoreet. Nullam metus lorem, mattis non aliquet in, lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+        "price": "1200.00"
+    },
+    {
+        "id":"5",
+        "type": "featured",
+        "brand": "adidas",
+        "name": "Roses Polo Shirt",
+        "file": "img/products/5.jpg",
+        "variants": {
+          "v1": "main/img/product-variants/5a.jpg",
+          "v2": "main/img/product-variants/5b.jpg",
+          "v3": "main/img/product-variants/5c.jpg"
+        },
+        "stars": 4,
+        "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+        "price": "1200.00"
+    },
+    {
+        "id":"6",
+        "type": "featured",
+        "brand": "Uniqlo",
+        "name": "Long Sleeve Shirt",
+        "file": "img/products/6.jpg",
+        "variants": {
+          "v1": "main/img/product-variants/6a.jpg",
+          "v2": "main/img/product-variants/6b.jpg",
+          "v3": "main/img/product-variants/6c.jpg"
+        },
+        "stars": 5,
+        "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+        "price": "1500.00"
+    },
+    {
+        "id":"7",
+        "type": "featured",
+        "brand": "Bench",
+        "name": "Rose Vintage Pants",
+        "file": "img/products/7.jpg",
+        "variants": {
+          "v1": "main/img/product-variants/7a.jpg",
+          "v2": "main/img/product-variants/7b.jpg",
+          "v3": "main/img/product-variants/7c.jpg"
+        },
+        "stars": 4,
+        "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+        "price": "1000.00"
+    },
+    {
+        "id":"8",
+        "type": "featured",
+        "brand": "Bench",
+        "name": "Sea Embroidery Skirt",
+        "file": "img/products/8.jpg",
+        "variants": {
+          "v1": "main/img/product-variants/8a.jpg",
+          "v2": "main/img/product-variants/8b.jpg",
+          "v3": "main/img/product-variants/8c.jpg"
+        },
+        "stars": 3,
+        "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+        "price": "1200.00"
+    },
+    {
+      "id":"9",
+      "type": "new",
+      "brand": "Uniqlo",
+      "name": "Blue Buttoned Long Sleeve",
+      "file": "img/products/9.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/9a.jpg",
+        "v2": "main/img/product-variants/9b.jpg",
+        "v3": "main/img/product-variants/9c.jpg"
+      },
+      "stars": 5,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "1250.00"
+    },
+    {
+      "id":"10",
+      "type": "new",
+      "brand": "Uniqlo",
+      "name": "Grey Buttoned Long Sleeve",
+      "file": "img/products/10.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/10a.jpg",
+        "v2": "main/img/product-variants/10b.jpg",
+        "v3": "main/img/product-variants/10c.jpg"
+      },
+      "stars": 4,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "1300.00"
+    },
+    {
+      "id":"11",
+      "type": "new",
+      "brand": "Uniqlo",
+      "name": "Cream Buttoned Long Sleeve",
+      "file": "img/products/11.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/11a.jpg",
+        "v2": "main/img/product-variants/11b.jpg",
+        "v3": "main/img/product-variants/11c.jpg"
+      },
+      "stars": 5,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "1250.00"
+    },
+    {
+      "id":"12",
+      "type": "new",
+      "brand": "Jag",
+      "name": "Wild Polo Shirt",
+      "file": "img/products/12.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/12a.jpg",
+        "v2": "main/img/product-variants/12b.jpg",
+        "v3": "main/img/product-variants/12c.jpg"
+      },
+      "stars": 3,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "900.00"
+    },
+    {
+      "id":"13",
+      "type": "new",
+      "brand": "Uniqlo",
+      "name": "Classic Buttoned Shirt",
+      "file": "img/products/13.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/13a.jpg",
+        "v2": "main/img/product-variants/13b.jpg",
+        "v3": "main/img/product-variants/13c.jpg"
+      },
+      "stars": 5,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "1400.00"
+    },
+    {
+      "id":"14",
+      "type": "new",
+      "brand": "Bench",
+      "name": "Cream Shorts",
+      "file": "img/products/14.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/14a.jpg",
+        "v2": "main/img/product-variants/14b.jpg",
+        "v3": "main/img/product-variants/14c.jpg"
+      },
+      "stars": 5,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "1200.00"
+    },
+    {
+      "id":"15",
+      "type": "new",
+      "brand": "H&M",
+      "name": "Formal Buttoned Shirt",
+      "file": "img/products/15.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/15a.jpg",
+        "v2": "main/img/product-variants/15b.jpg",
+        "v3": "main/img/product-variants/15c.jpg"
+      },
+      "stars": 4,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "1000.00"
+    },
+    {
+      "id":"16",
+      "type": "new",
+      "brand": "Bench",
+      "name": "Comfy Buttoned Shirt",
+      "file": "img/products/16.jpg",
+      "variants": {
+        "v1": "main/img/product-variants/16a.jpg",
+        "v2": "main/img/product-variants/16b.jpg",
+        "v3": "main/img/product-variants/16c.jpg"
+      },
+      "stars": 4,
+      "description": "Lorem ipsum dolor sit amet In auctor urna eget risus viver lacinia sed lectus. In odio enim, lobortis at dui et, fermentum elementum leo.",
+      "price": "1000.00"
+    }
+]
+}

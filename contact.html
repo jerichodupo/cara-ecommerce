@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+<body>
+    
+    <!-- NAVIGATION HEADER -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top py-4 shadow-sm">
+        <div class="container">
+          <a href="#"><img src="img/logo.png" alt="logo"></a>
+          <button onclick="toggle()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span><i id="bar" class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cart.html"><span>Shopping Cart</span><i class="fa fa-shopping-bag"></i></a>
+              </li>
+          </div>
+        </div>
+    </nav>
+
+    <!-- HERO IMAGE -->
+    <section id="page-header" class="about-header mb-5">
+        <div class="container">
+            <h1 style="font-weight: bold;">#LetsTalk</h1>
+            <p>Don't hesitate and let us know about your concerns!</p>
+        </div>
+    </section>
+
+    <section id="contact-details" class="container my-5">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit us in one of our agency locations or contact us</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fal fa-map"></i>
+                    <p>56 Glassford Street Glasgow G1 1UL, New York</p>
+                </li>
+                <li>
+                    <i class="far fa-envelope"></i>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <i class="fal fa-phone-alt"></i>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                    <p>Monday to Saturday 9:00am to 4:00pm</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.808802952254!2d-1.2569417244649181!3d51.754819692599895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sph!4v1708370216991!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details" class="my-5">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="You name">
+            <input type="text" placeholder="You e-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
+            <button class="form-button">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="img/people/1.png" alt="">
+                <p><span>John Doe</span>
+                Senior Marketing Manager <br>
+                Phone: + 000 123 44 55 <br>
+                Email: contact@email.com
+                </p>
+            </div>
+            <div>
+                <img src="img/people/2.png" alt="">
+                <p><span>William Smith</span>
+                Senior User Experience Designer<br>
+                Phone: + 000 123 44 55 <br>
+                Email: contact@email.com
+                </p>
+            </div>
+            <div>
+                <img src="img/people/3.png" alt="">
+                <p><span>Emma Stone</span>
+                Senior Marketing Manager <br>
+                Phone: + 000 123 44 55 <br>
+                Email: contact@email.com
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section id="newsletter">
+        <div class="newsletter-text">
+            <h4>Sign Up For Our Newsletter</h4>
+            <p>Get e-mail updates about out latest promotions and get <span>special offers.</span></p>
+        </div>
+        <div class="newsletter-input">
+            <input type="email" placeholder="Input email address here...">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <section id="footer" class="section-p1">
+        <div class="column">
+          <img class="logo" src="img/logo.png" alt="logo-image">
+          <!-- <h5>Contact</h5> -->
+          <p><b>Address: </b>562 Wellington Road, Street 32, San Fransisco</p>
+          <p><b>Phone: </b> +01 2222 365/(+91) 01 2345 6789</p>
+          <p><b>Hours: </b> 10:00 - 18:00, Mon - Sat</p>
+          <div class="follow">
+            <h5>Follow Us</h5>
+            <div class="icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-pinterest-p"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+  
+        <div class="column">
+          <h5>About</h5>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Condition</a>
+          <a href="#">Contact Us</a>
+        </div>
+  
+        <div class="column">
+          <h5>My Account</h5>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+  
+        <div class="column install">
+          <h5>Install App</h5>
+          <p>From App Store & Google Play Store</p>
+          <div class="row container">
+            <img class="img-fluid" src="img/pay/app.jpg" alt="">
+            <img class="img-fluid" src="img/pay/play.jpg" alt="">
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src="img/pay/pay.png" alt="">
+        </div>
+  
+        <div class="copyright">
+          <p>Cara eCommerce © 2024. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" 
+    crossorigin="anonymous"></script>
+    <script src="/EcommerceWebsiteNew/main/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>
